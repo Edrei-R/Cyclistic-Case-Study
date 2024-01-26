@@ -1,6 +1,8 @@
+# Cyclistic Case Study
 ---
 Name: Cyclistic Case Study
 Author: Edrei Rodriguez
+Language: R
 ---
 
 # Introduction
