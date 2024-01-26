@@ -1,9 +1,6 @@
----
-Name: Cyclistic Case Study
-Author: Edrei R.
----
+# Cyclistic Case Study
 
-# Introduction
+## Introduction
 
 This case study centers around the analysis of Cyclistic, a bike-sharing company. The purpose of this document is to guide you through the entire process in RStudio, starting from data loading to the creation of data visualizations. I am Edrei Rodriguez and will be the Data Analyst guiding you through this analysis. 
 
