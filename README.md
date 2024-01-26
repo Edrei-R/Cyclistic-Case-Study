@@ -427,7 +427,7 @@ ggplot(overall_trip_summary, aes(x = "", y = percentage, fill = member_casual)) 
   scale_fill_manual(values = c("coral2", "steelblue"))  # Colors for plot
 ```
 
-![Plots/Overall Trip Distribution - Casual vs. Member Riders.jpg](https://github.com/Edrei-R/Cyclistic-Case-Study/blob/822f1ff7459f63a30e6298c5a12fff79ccb8c0e5/Plots/Overall%20Trip%20Distribution%20-%20Casual%20vs.%20Member%20Riders.jpg)
+![Overall Trip Distribution - Casual vs. Member Riders](https://github.com/Edrei-R/Cyclistic-Case-Study/blob/822f1ff7459f63a30e6298c5a12fff79ccb8c0e5/Plots/Overall%20Trip%20Distribution%20-%20Casual%20vs.%20Member%20Riders.jpg)
 
 Based on the overall distribution casual riders make up 41% of the amount of riders, while members make up 59%. 
 
@@ -452,6 +452,8 @@ ggplot() +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))  
 ```
+
+
 
 Throughout the year, both casual and member riders follow a comparable trend, starting below 100,000 trips and reaching peaks in July for casual riders and August for members. Both groups gradually taper off, ending the year with totals below 150,000. Notably, members consistently take more trips than casual riders throughout the entire year.
 
