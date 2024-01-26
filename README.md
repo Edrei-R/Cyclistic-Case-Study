@@ -1,12 +1,3 @@
----
-title: "Cyclistic Case Study"
-author: "Edrei Rodriguez"
-date: "2024-1-15"
-output:
-  html_document: default
-  pdf_document: default
----
-
 # Introduction
 
 This case study centers around the analysis of Cyclistic, a bike-sharing company. The purpose of this document is to guide you through the entire process in RStudio, starting from data loading to the creation of data visualizations. I am Edrei Rodriguez and will be the Data Analyst guiding you through this analysis. 
@@ -435,6 +426,8 @@ ggplot(overall_trip_summary, aes(x = "", y = percentage, fill = member_casual)) 
   scale_y_continuous(labels = scales::percent_format(scale = 1)) +
   scale_fill_manual(values = c("coral2", "steelblue"))  # Colors for plot
 ```
+
+![alt text]([Plots/Overall Trip Distribution - Casual vs. Member Riders.jpg](https://github.com/Edrei-R/Cyclistic-Case-Study/blob/822f1ff7459f63a30e6298c5a12fff79ccb8c0e5/Plots/Overall%20Trip%20Distribution%20-%20Casual%20vs.%20Member%20Riders.jpg))
 
 Based on the overall distribution casual riders make up 41% of the amount of riders, while members make up 59%. 
 
