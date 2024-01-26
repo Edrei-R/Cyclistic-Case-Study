@@ -1,6 +1,6 @@
 ---
 Name: Cyclistic Case Study
-Author: Edrei R.
+Author: Edrei Rodriguez
 ---
 
 # Introduction
