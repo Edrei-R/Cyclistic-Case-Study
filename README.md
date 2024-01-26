@@ -453,7 +453,7 @@ ggplot() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))  
 ```
 
-
+![Monthly Total Trips - Casual vs Member Riders](https://github.com/Edrei-R/Cyclistic-Case-Study/blob/ff2fcf819c2f31fd9911c02fae510a8f9de6ad52/Plots/Monthly%20Total%20Trips%20-%20Casual%20vs%20Member%20Riders.jpg)
 
 Throughout the year, both casual and member riders follow a comparable trend, starting below 100,000 trips and reaching peaks in July for casual riders and August for members. Both groups gradually taper off, ending the year with totals below 150,000. Notably, members consistently take more trips than casual riders throughout the entire year.
 
@@ -478,6 +478,8 @@ ggplot() +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))  
 ```
+
+![Monthly Average Trip Duration - Casual vs Member Riders](https://github.com/Edrei-R/Cyclistic-Case-Study/blob/cf02d70126c06b9a181e277574a5f6f3893fed62/Plots/Monthly%20Average%20Trip%20Duration%20-%20Casual%20vs%20Member%20Riders.jpg)
 
 Here, distinct patterns emerge. Despite members consistently taking more trips than casual riders throughout the year, as evidenced in the previous plot, we observe that casual riders, on average, embark on longer journeys consistently across all months. Another intriguing observation is that while casual riders experience their highest trip frequency in July, the longest average trips occur more prominently in May and March. On the other hand, members, with their peak trip count in August, maintain a relatively consistent trip duration within the 13-minute range from May to August, with June showing the highest average trip duration.
 
@@ -504,6 +506,8 @@ ggplot() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
+![Daily Total Trips - Casual vs Member Riders](https://github.com/Edrei-R/Cyclistic-Case-Study/blob/cf02d70126c06b9a181e277574a5f6f3893fed62/Plots/Daily%20Total%20Trips%20-%20Casual%20vs%20Member%20Riders.jpg)
+
 In this visualization, we observe another noteworthy distinction. Member riders exhibit a higher frequency of trips during Monday through Thursday, whereas casual riders are generally spread out throughout the week, with a slight increase on Saturdays. Additionally, it's interesting to note that on both Saturday and Sunday, casual riders surpass member riders in the number of rides.
 
 Lets analyze this further by looking at the breakdown this would have per day on the hour with the most start times. 
@@ -526,6 +530,8 @@ ggplot() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
+![Daily Peak Riding Hour - Casual Riders vs. Members](https://github.com/Edrei-R/Cyclistic-Case-Study/blob/cf02d70126c06b9a181e277574a5f6f3893fed62/Plots/Daily%20Peak%20Riding%20Hour%20-%20Casual%20Riders%20vs.%20Members.jpg)
+
 Throughout Sunday to Friday, the two lines maintain a close alignment, deviating by only one hour on Saturdays. Despite the earlier plot highlighting distinctions in trip counts between members and casual riders, their peak start times consistently coincide throughout the week. Let's delve into how this consistency reflects on trip durations during weekdays. 
 
 ```{r}
@@ -546,6 +552,8 @@ ggplot() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 ```
+
+![Daily Average Trip Duration - Casual vs Member Riders](https://github.com/Edrei-R/Cyclistic-Case-Study/blob/cf02d70126c06b9a181e277574a5f6f3893fed62/Plots/Daily%20Average%20Trip%20Duration%20-%20Casual%20vs%20Member%20Riders.jpg)
 
 The ongoing trend reveals that casual riders generally have longer ride durations compared to members. Notably, there is a distinctive increase in the duration of rides for casual riders on the weekend. While casual riders typically range between 19 to 28 minutes, members, although experiencing a slight uptick on weekends, tend to maintain a narrower riding window between 12 to 15 minutes.
 
@@ -576,6 +584,8 @@ ggplot() +
   )
 ```
 
+![Hourly Total Trips - Casual vs Member Riders](https://github.com/Edrei-R/Cyclistic-Case-Study/blob/cf02d70126c06b9a181e277574a5f6f3893fed62/Plots/Hourly%20Total%20Trips%20-%20Casual%20vs%20Member%20Riders.jpg)
+
 In this plot, we gain deeper insights into the riding patterns. Both casual and member riders show a noticeable increase in rides at 17:00 (5 pm), but their overall trajectories differ. Members exhibit an early spike at 8:00, followed by an irregular rise towards their peak hours from 15:00 (3 pm) to 19:00 (7 pm), and then a gradual decline. In contrast, casual riders experience a relatively steady increase in the number of rides throughout the day, reaching a peak at 17:00 (5 pm) and declining towards later hours. An intriguing observation is the significant difference in the number of rides between member and casual riders, particularly pronounced at 7:00, 8:00, and 17:00 (5 pm).
 
 Let's visualize how this information translates into the average duration of rides throughout the day in the following plot.
@@ -604,6 +614,8 @@ ggplot() +
     panel.grid.minor.x = element_blank()
   )
 ```
+
+![Hourly Average Trip Duration - Casual vs Member Riders](https://github.com/Edrei-R/Cyclistic-Case-Study/blob/cf02d70126c06b9a181e277574a5f6f3893fed62/Plots/Hourly%20Average%20Trip%20Duration%20-%20Casual%20vs%20Member%20Riders.jpg)
 
 Here, it's worth noting once again that casual riders consistently take longer rides, surpassing members throughout the entire day. The peak average durations for casual riders occur between 10:00 and 14:00 (2 pm), reaching above 25 minutes. In contrast, member riders maintain a narrower range, with average durations ranging from 10 to 14 minutes throughout the day, and the longest average ride being 13.5 minutes
 
